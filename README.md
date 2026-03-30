@@ -42,6 +42,22 @@ To ensure the OS does not put the device to sleep, No Sleep requires:
 - **Minimum SDK**: API 26 (Android 8.0)
 - **Target SDK**: API 34 (Android 14)
 
+## 🏗 Building from Source
+
+If you'd like to build the project yourself, ensure you have the Android SDK and JDK 17 installed.
+
+```bash
+# Clone the repository
+git clone https://github.com/saheermk/no-sleep.git
+cd no-sleep
+
+# Build the debug APK
+./gradlew assembleDebug
+
+# The APK will be located at:
+# app/build/outputs/apk/debug/app-debug.apk
+```
+
 ## 👨‍💻 Developer
 
 **Developed by Saheer**  
